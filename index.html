@@ -5,8 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="background">
+        <div class="left">Player: <span id="player-score">0</span></div>
+        <div class="right">Computer: <span id="computer-score">0</span></div>
+    </div>
+    <div class="container">
+        <div class="display-result">
+            Let's beat RNG to prove that human can predict things!
+            <br>
+            Via this simple Rock, Paper, Scissors game.
+        </div>
+        <div class="player-section">
+            <button class="player-btn" id="paper">Paper</button>
+            <button class="player-btn" id="rock">Rock</button>
+            <button class="player-btn" id="scissors">Scissors</button>
+        </div>
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
