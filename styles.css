@@ -31,10 +31,11 @@ body {
     color: aquamarine;
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    
 }
 
 span {
+    margin-top: 25vh;
     font-size: 4em;
 }
 
@@ -47,6 +48,7 @@ span {
     justify-content: center;
     align-items: center;
     gap: 1em;
+    margin-top: calc(0.60 * 100vh);
 }
 
 .display-result {
@@ -64,7 +66,13 @@ span {
     text-align: center;
     font-size: 2em;
     color: #A81CB8;
+}
 
+.restart {
+    background-color: orange;
+    margin-left: 1em;
+    border-radius: 5px;
+    font-size: 1em;
 }
 
 button {
